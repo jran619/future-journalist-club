@@ -1,9 +1,0 @@
-export { CommunityGuidelines } from "./community/CommunityGuidelines";
-export { ReportForm } from "./community/ReportForm";
-export { BoardCard } from "./boards/BoardCard";
-export { CommentForm } from "./comments/CommentForm";
-export { CommentList } from "./comments/CommentList";
-export { Footer } from "./layout/Footer";
-export { Header } from "./layout/Header";
-export { PostItem } from "./posts/PostItem";
-export { PostList } from "./posts/PostList";
