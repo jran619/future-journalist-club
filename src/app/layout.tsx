@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 
-import { Footer, Header } from "@/components";
+import { Footer } from "@/components/layout/Footer";
+import { Header } from "@/components/layout/Header";
 
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Press Community MVP",
-  description: "언론인 지망생을 위한 커뮤니티 사이트 MVP",
+  title: "미래 기자 클럽",
+  description: "예비 기자를 위한 커뮤니티 랜딩 페이지",
 };
 
 export default function RootLayout({
@@ -16,10 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="min-h-screen">
+      <body id="top" className="min-h-screen bg-white text-slate-950 antialiased">
         <div className="flex min-h-screen flex-col">
           <Header />
-          <main className="flex-1 py-8">{children}</main>
+          <main className="flex-1">{children}</main>
           <Footer />
         </div>
       </body>
